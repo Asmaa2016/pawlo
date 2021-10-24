@@ -10,7 +10,7 @@ const Header: FC = () => {
   const router = useRouter();
 
   return (
-    <header className="sticky z-10 flex flex-col w-full px-20 py-12">
+    <header className="sticky z-10 flex flex-col w-full md:px-20 px-4 py-12">
       <div className="w-full flex justify-between items-center">
         <img src="/images/logooo.png" alt="Logo" />
         <nav className="w-full flex justify-center items-center">

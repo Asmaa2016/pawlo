@@ -21,7 +21,7 @@ const PeopleSay: FC = () => {
     setInterval(() => setContentID(Math.floor(Math.random() * 3)), 6000);
   }, []);
   return (
-    <div className="w-full flex flex-col items-center  px-36 py-12">
+    <div className="w-full flex flex-col items-center  lg:px-36 px-4 py-12">
       <h1 className="text-3xl font-bold font-Poppins mb-4">What People Say</h1>
       <p className="text-base max-w-md text-center">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
