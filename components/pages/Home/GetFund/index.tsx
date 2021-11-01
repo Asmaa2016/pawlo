@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const GetFund: FC = () => {
   return (
-    <div className="w-full flex items-center justify-between px-36 py-16">
+    <div className="w-full flex md:flex-row flex-col items-center justify-between lg:px-36 py-16 px-10 ">
       <div className="flex flex-col max-w-md">
         <h1 className="font-Poppins text-3xl leading-normal">
           <span className="text-[#0783C1]">what</span> are you waiting for

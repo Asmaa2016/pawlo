@@ -8,12 +8,12 @@ export interface TCategory {
 }
 const Categories: FC = () => {
   return (
-    <div className="w-full px-36 py-16">
+    <div className="w-full lg:px-36 px-4 py-16">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-bold font-Poppins mb-4">Category</h1>
         <img src="/images/bar.png" alt="Bar" className="w-52" />
       </div>
-      <div className="w-full flex items-center justify-between py-20">
+      <div className="w-full flex  md:flex-row flex-col items-center md:justify-between py-20">
         {categories.map((category: TCategory) => (
           <Card key={category.id} category={category} />
         ))}
