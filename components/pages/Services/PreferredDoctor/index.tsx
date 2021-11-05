@@ -8,7 +8,7 @@ const companies = [
 ];
 const PreferredDoctor: FC = () => {
   return (
-    <div className="bg-[#0783C10F] w-full flex md:flex-col flex-row items-start  lg:px-36 py-10 px-10 ">
+    <div className="bg-[#0783C10F] w-full flex md:flex-col flex-row items-start  lg:px-36 py-20 px-10 ">
       <p className="text-[#0783C1] ">Select preferred doctor and time</p>
       <h1 className="font-Poppins text-3xl my-1">
         Lorem ipsum dolor sit amet, consetetur
