@@ -1,7 +1,7 @@
 import React, { FC, useState, useEffect } from "react";
 import Card from "./Card";
-import RightArrow from "../../../../public/icons/rightArrow.svg";
-import LeftArrow from "../../../../public/icons/leftArrow.svg";
+import RightArrow from "@public/images/icons/rightArrow.svg";
+import LeftArrow from "@public/images/icons/leftArrow.svg";
 
 import { comments } from "./data";
 export interface TComment {

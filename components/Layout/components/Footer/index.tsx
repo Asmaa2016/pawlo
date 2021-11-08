@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import Link from "next/link";
-import { useRouter } from "next/dist/client/router";
 const menuItems = [
   { name: "About", route: "/" },
   { name: "Classes", route: "/" },
@@ -15,7 +14,6 @@ const platforms = [
   { name: "Pinterest", route: "/" },
 ];
 const Footer: FC = () => {
-  const router = useRouter();
   return (
     <div className="relative  w-full flex items-start">
       <div className="bg-[#4bc4ff] w-2/3 h-96 absolute left-0 top-[-20%] z-5 px-28 py-14">

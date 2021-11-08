@@ -10,7 +10,7 @@ const Card: FC<Props> = ({ place: { date, description, picture } }: Props) => {
       <img src={picture} alt="Place" className="w-full h-72 rounded-t-2xl" />
 
       <div className="w-full flex items-center text-sm font-bold p-3">
-        <img src="/icons/indicator.png" alt="Indicator" />
+        <img src="/images/icons/indicator.png" alt="Indicator" />
         <p className='ml-2'>{date}</p>
       </div>
       <p className="text-[#A7A5A5] text-sm pb-3 px-3">{description}</p>
