@@ -13,7 +13,7 @@ const Card: FC<Props> = ({ category: { title, description } }: Props) => {
         <Link href="#">
           <a className="text-white text-sm">Learn More →</a>
         </Link>
-        <img src="/icons/cloud.png" alt="Cloud" />
+        <img src="/images/icons/cloud.png" alt="Cloud" />
       </div>
     </div>
   );

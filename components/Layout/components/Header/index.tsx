@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
-import Menu from "../../../../public/icons/humburg.svg";
+import Menu from "../../../../public/images/icons/humburg.svg";
 const items = [
   { name: "Home", route: "/" },
   { name: "Services", route: "/services" },
@@ -84,9 +84,7 @@ const Header: FC = () => {
                 type="button"
                 onClick={() => setOpenMenu(false)}
                 className="flex items-center"
-              >
-                
-              </button>
+              ></button>
               <h3 className="ml-4 text-base text-white font-RussoOne">Pawol</h3>
             </div>
             {/* <div className="flex flex-col items-start pt-4 pl-16 pr-10 md:items-end md:pt-14 md:pl-0">

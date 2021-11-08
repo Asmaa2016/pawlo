@@ -15,7 +15,7 @@ const Card: FC<Props> = ({
         <h1>{price}$</h1>
       </div>
       <div className="flex items-center w-full pt-1 pb-3 px-3">
-        <img src="/icons/indicator.png" alt="Indicator" />
+        <img src="/images/icons/indicator.png" alt="Indicator" />
         <p className="text-[#A7A5A5] text-sm ml-1">{duration}</p>
       </div>
     </div>
