@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import Link from "next/link";
 import { TPlace } from "../index";
 interface Props {
   place: TPlace;

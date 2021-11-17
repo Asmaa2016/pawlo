@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import Link from "next/link";
 import { TPlace } from "../index";
 interface Props {
   place: TPlace;
@@ -11,7 +10,7 @@ const Card: FC<Props> = ({ place: { date, description, picture } }: Props) => {
 
       <div className="w-full flex items-center text-sm font-bold p-3">
         <img src="/images/icons/indicator.png" alt="Indicator" />
-        <p className='ml-2'>{date}</p>
+        <p className="ml-2">{date}</p>
       </div>
       <p className="text-[#A7A5A5] text-sm pb-3 px-3">{description}</p>
     </div>
