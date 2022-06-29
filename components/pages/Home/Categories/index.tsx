@@ -1,4 +1,6 @@
 import React, { FC } from "react";
+import { motion } from "framer-motion";
+
 import Card from "./Card";
 import { categories } from "./data";
 export interface TCategory {
@@ -8,7 +10,12 @@ export interface TCategory {
 }
 const Categories: FC = () => {
   return (
-    <div className="w-full lg:px-36 px-4 py-16">
+    <motion.div
+      className="w-full lg:px-36 px-4 py-16"
+      initial={{ x: "-100vw" }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", stiffness: 100 }}
+    >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-bold font-Poppins mb-4">Category</h1>
         <img src="/images/bar.png" alt="Bar" className="w-52" />
@@ -18,7 +25,7 @@ const Categories: FC = () => {
           <Card key={category.id} category={category} />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default Categories;
