@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import Head from "next/head";
+
 import Layout from "../components/Layout";
 import GetFund from "../components/pages/Home/GetFund";
 import Categories from "../components/pages/Home/Categories";
@@ -17,7 +18,9 @@ const Home: FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col">
-        <GetFund />
+       
+          <GetFund />
+        
         <Categories />
         <Places />
         <Booking />

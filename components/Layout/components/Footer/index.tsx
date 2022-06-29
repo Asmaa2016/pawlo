@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 const menuItems = [
   { name: "About", route: "/" },
   { name: "Classes", route: "/" },
@@ -31,17 +32,25 @@ const Footer: FC = () => {
         <div className="flex flex-col">
           <p className="font-Poppins mb-2">Menu</p>
           {menuItems.map((item) => (
-            <p className="text-white text-[#0783C1]">
+            <motion.p
+              whileHover={{ scale: 1.3, originX: 0 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className="text-white text-[#0783C1]"
+            >
               <Link href={item.route}>{item.name}</Link>
-            </p>
+            </motion.p>
           ))}
         </div>
         <div className="flex flex-col">
           <p className="font-Poppins mb-2">Follow Us</p>
           {platforms.map((item) => (
-            <p className="text-white text-[#0783C1]">
+            <motion.p
+              whileHover={{ scale: 1.3, originX: 0 }}
+              transition={{ type: "spring", stiffness: 100 }}
+              className="text-white text-[#0783C1]"
+            >
               <Link href={item.route}>{item.name}</Link>
-            </p>
+            </motion.p>
           ))}
         </div>
       </div>
