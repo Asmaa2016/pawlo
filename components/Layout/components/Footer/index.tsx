@@ -31,6 +31,7 @@ const Footer: FC = () => {
       <div className="flex justify-around bg-[#bbeaff] w-[40rem] h-72 absolute right-0 top-[60px] z-10 px-24 py-6">
         <div className="flex flex-col">
           <p className="font-Poppins mb-2">Menu</p>
+
           {menuItems.map((item) => (
             <motion.p
               whileHover={{ scale: 1.3, originX: 0 }}
