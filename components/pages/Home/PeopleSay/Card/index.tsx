@@ -1,3 +1,4 @@
+//mvjhfjb
 import React, { FC } from "react";
 import { TComment } from "../index";
 interface Props {
